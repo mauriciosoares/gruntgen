@@ -1,0 +1,22 @@
+{
+  "author": "Mauricio Soares",
+  "name": "gruntgen",
+  "description": "Nice and easy way to setup your Gruntfile",
+  "version": "0.0.1",
+  "repository": {
+    "url": "https://github.com/mauriciosoares/gruntgen.git"
+  },
+  "main": "./lib/gruntgen",
+  "keywords": [
+    "gruntjs",
+    "generator",
+    "gruntgen"
+  ],
+  "bin": {
+    "gruntgen": "./bin/gruntgen"
+  },
+  "dependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
