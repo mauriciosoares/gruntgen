@@ -1,10 +1,12 @@
   // =============================================
-  // watch
-  config.watch = {};
-  config.watch.scripts = {
-    files: ['src/**/*.js'],
-    tasks: ['jshint', 'concat'],
-    options: {
-      spawn: false,
+  // Watch
+  // docs: https://github.com/gruntjs/grunt-contrib-watch
+  config.watch = {
+    scripts: {
+      files: ['FILES_TO_WATCH'],
+      tasks: ['TASKS_TO_RUN'],
+      options: {
+        spawn: false,
+      }
     }
-  }
+  };

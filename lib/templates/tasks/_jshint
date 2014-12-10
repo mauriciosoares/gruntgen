@@ -1,7 +1,6 @@
   // =============================================
-  // jshint
-  config.jshint = {};
-  config.jshint.options = {
-    debug: true
+  // JSHint
+  // docs: https://github.com/gruntjs/grunt-contrib-jshint
+  config.jshint = {
+    all: ['FILES_TO_HINT']
   };
-  config.jshint.all = ['src/**/*.js'];
