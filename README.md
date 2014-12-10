@@ -1,4 +1,4 @@
-upper-case-me
+gruntgen
 -------------
 
-Nice and easy way to setup your Gruntfile
+The easy and fast way to setup your grunt tasks.
