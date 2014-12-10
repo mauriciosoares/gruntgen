@@ -1,0 +1,10 @@
+  // =============================================
+  // watch
+  config.watch = {};
+  config.watch.scripts = {
+    files: ['src/**/*.js'],
+    tasks: ['jshint', 'concat'],
+    options: {
+      spawn: false,
+    }
+  }

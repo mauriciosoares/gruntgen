@@ -1,0 +1,7 @@
+  // =============================================
+  // config
+  grunt.initConfig(config);
+
+  // Load all tasks
+  tasks.forEach(grunt.loadNpmTasks);
+};
