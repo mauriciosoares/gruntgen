@@ -22,7 +22,7 @@ To use _gruntgen_ is simple, just run it and chose which task you want to instal
 
 This will install the Uglify and JSHint task into the folder you are, and also save those tasks on your _devDependencies_ in your package.json.
 
-After running this command a file called _Gruntfile.js, remove the "_" to use the file. It's created with a underscore because everytime you run this command it will replace everything inside the _Gruntfile.js file.
+After running this command a file named \_Gruntfile.js will be created. Remove the "\_" to use the file. It's created with a underscore because everytime you run this command it will replace everything inside the \_Gruntfile.js file.
 
 ## Parameters
 
