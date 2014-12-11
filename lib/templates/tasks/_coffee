@@ -1,0 +1,11 @@
+  // =============================================
+  // Coffee
+  // docs: https://github.com/gruntjs/grunt-contrib-coffee
+  config.coffee = {
+    compile: {
+      files: {
+        'path/to/result.js': 'path/to/source.coffee',
+        'path/to/another.js': ['path/to/sources/*.coffee', 'path/to/more/*.coffee']
+      }
+    },
+  };

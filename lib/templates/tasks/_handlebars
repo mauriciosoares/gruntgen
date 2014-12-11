@@ -1,0 +1,14 @@
+  // =============================================
+  // Handlebars
+  // docs: https://github.com/gruntjs/grunt-contrib-handlebars
+  config.handlebars = {
+    compile: {
+      options: {
+        namespace: "JST"
+      },
+      files: {
+        "path/to/result.js": "path/to/source.hbs",
+        "path/to/another.js": ["path/to/sources/*.hbs", "path/to/more/*.hbs"]
+      }
+    }
+  };

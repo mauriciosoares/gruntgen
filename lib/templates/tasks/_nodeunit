@@ -1,0 +1,6 @@
+  // =============================================
+  // Nodeunit
+  // docs: https://github.com/gruntjs/grunt-contrib-nodeunit
+  config.nodeunit = {
+    all: ['test/*_test.js']
+  };

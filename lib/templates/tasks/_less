@@ -1,0 +1,13 @@
+  // =============================================
+  // Less
+  // docs: https://github.com/gruntjs/grunt-contrib-less
+  config.less = {
+    development: {
+      options: {
+        paths: ['assets/css']
+      },
+      files: {
+        'path/to/result.css': 'path/to/source.less'
+      }
+    }
+  };

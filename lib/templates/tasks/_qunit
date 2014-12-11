@@ -1,0 +1,6 @@
+  // =============================================
+  // QUnit
+  // docs: https://github.com/gruntjs/grunt-contrib-qunit
+  config.qunit = {
+    all: ['test/**/*.html']
+  };

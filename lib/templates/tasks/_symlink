@@ -1,0 +1,31 @@
+  // =============================================
+  // Symlink
+  // docs: https://github.com/gruntjs/grunt-contrib-symlink
+  config.symlink = {
+    options: {
+      overwrite: false
+    },
+    explicit: {
+      src: 'source/target.txt',
+      dest: 'build/target.txt'
+    },
+    expanded: {
+      files: [
+        {
+          expand: true,
+          overwrite: false,
+          cwd: 'source',
+          src: ['foo-*'],
+          dest: 'build'
+        },
+        {
+          expand: true,
+          overwrite: false,
+          cwd: 'source',
+          src: ['*'],
+          dest: 'build',
+          filter: 'isDirectory'
+        }
+      ]
+    }
+  };

@@ -1,0 +1,12 @@
+  // =============================================
+  // Concat
+  // docs: https://github.com/gruntjs/grunt-contrib-concat
+  config.concat = {
+    options: {
+      separator: ';',
+    },
+    dist: {
+      src: ['FILE_TO_CONCAT'],
+      dest: 'DESTINATION',
+    }
+  };

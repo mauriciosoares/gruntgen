@@ -1,0 +1,10 @@
+  // =============================================
+  // CSSmin
+  // docs: https://github.com/gruntjs/grunt-contrib-cssmin
+  config.cssmin = {
+    combine: {
+      files: {
+        'DESTINATION': ['FILE_TO_MIN']
+      }
+    }
+  }

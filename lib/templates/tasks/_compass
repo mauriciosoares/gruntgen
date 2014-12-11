@@ -1,0 +1,12 @@
+  // =============================================
+  // Compass
+  // docs: https://github.com/gruntjs/grunt-contrib-compass
+  config.compass = {
+    dist: {
+      options: {
+        sassDir: 'sass',
+        cssDir: 'css',
+        environment: 'production'
+      }
+    }
+  };

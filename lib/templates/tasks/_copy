@@ -1,0 +1,11 @@
+  // =============================================
+  // Copy
+  // docs: https://github.com/gruntjs/grunt-contrib-copy
+  config.copy = {
+    main: {
+      files: [
+        // includes files within path
+        {expand: true, src: ['SOURCE'], dest: 'DESTINATION', filter: 'isFile'},
+      ]
+    }
+  };

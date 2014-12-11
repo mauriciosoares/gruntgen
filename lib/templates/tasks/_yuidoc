@@ -1,0 +1,16 @@
+  // =============================================
+  // YUIdoc
+  // docs: https://github.com/gruntjs/grunt-contrib-yuidoc
+  config.yuidoc = {
+    compile: {
+      name: 'Name',
+      description: 'Description',
+      version: 'Version',
+      url: 'URL',
+      options: {
+        paths: 'path/to/source/code/',
+        themedir: 'path/to/custom/theme/',
+        outdir: 'where/to/save/docs/'
+      }
+    }
+  };

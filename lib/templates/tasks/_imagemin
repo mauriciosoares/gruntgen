@@ -1,0 +1,17 @@
+  // =============================================
+  // Imagemin
+  // docs: https://github.com/gruntjs/grunt-contrib-imagemin
+  config.imagemin = {
+    static: {
+      options: {
+        optimizationLevel: 3,
+        svgoPlugins: [{ removeViewBox: false }],
+        use: [mozjpeg()]
+      },
+      files: {
+        'dist/img.png': 'src/img.png',
+        'dist/img.jpg': 'src/img.jpg',
+        'dist/img.gif': 'src/img.gif'
+      }
+    }
+  };

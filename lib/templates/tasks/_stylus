@@ -1,0 +1,25 @@
+  // =============================================
+  // Stylus
+  // docs: https://github.com/gruntjs/grunt-contrib-stylus
+  config.stylus = {
+    compile: {
+      options: {
+        paths: ['path/to/import', 'another/to/import'],
+        urlfunc: 'embedurl',
+        use: [
+          function () {
+            return testPlugin('yep');
+          },
+          require('fluidity')
+        ],
+        import: [
+          'foo',
+          'bar/moo'
+        ]
+      },
+      files: {
+        'path/to/result.css': 'path/to/source.styl',
+        'path/to/another.css': ['path/to/sources/*.styl', 'path/to/more/*.styl']
+      }
+    }
+  };

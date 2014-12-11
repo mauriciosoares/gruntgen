@@ -1,0 +1,10 @@
+  // =============================================
+  // Uglify
+  // docs: https://github.com/gruntjs/grunt-contrib-uglify
+  config.uglify = {
+    my_target: {
+      files: {
+        'OUTPUT_FILE': ['UGLIFIED_FILES']
+      }
+    }
+  };

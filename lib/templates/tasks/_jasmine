@@ -1,0 +1,12 @@
+  // =============================================
+  // Jasmine
+  // docs: https://github.com/gruntjs/grunt-contrib-jasmine
+  config.jasmine = {
+    pivotal: {
+      src: 'src/**/*.js',
+      options: {
+        specs: 'spec/*Spec.js',
+        helpers: 'spec/*Helper.js'
+      }
+    }
+  };

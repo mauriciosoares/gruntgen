@@ -1,0 +1,11 @@
+  // =============================================
+  // Connect
+  // docs: https://github.com/gruntjs/grunt-contrib-connect
+  config.connect = {
+    server: {
+      options: {
+        port: 9001,
+        base: 'BASE_PATH'
+      }
+    }
+  };

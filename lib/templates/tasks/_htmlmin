@@ -1,0 +1,15 @@
+  // =============================================
+  // HTMLmin
+  // docs: https://github.com/gruntjs/grunt-contrib-htmlmin
+  config.htmlmin = {
+    dist: {
+      options: {
+        removeComments: true,
+        collapseWhitespace: true
+      },
+      files: {
+        'dist/index.html': 'src/index.html',
+        'dist/contact.html': 'src/contact.html'
+      }
+    }
+  };
