@@ -2,3 +2,4 @@
   // Clean
   // docs: https://github.com/gruntjs/grunt-contrib-clean
   config.clean = ['DIR_TO_CLEAN'];
+

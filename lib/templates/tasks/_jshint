@@ -4,3 +4,4 @@
   config.jshint = {
     all: ['FILES_TO_HINT']
   };
+
