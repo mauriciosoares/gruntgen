@@ -1,8 +1,0 @@
-  var tasks = [
-    'grunt-contrib-jshint',
-    'grunt-contrib-concat',
-    'grunt-contrib-jasmine',
-    'grunt-contrib-watch',
-    'grunt-contrib-uglify',
-    'grunt-bump'
-  ];
