@@ -17,7 +17,7 @@ Install _gruntgen_ globally using _npm_.
 To use _gruntgen_ is simple, just run it and chose which task you want to install.
 
 ```
-  gruntgen uglify jshint
+  gruntgen grunt-contrib-uglify grunt-contrib-jshint
 ```
 
 This will install the Uglify and JSHint task into the folder you are, and also save those tasks on your _devDependencies_ in your package.json.
@@ -26,31 +26,38 @@ After running this command a file named \_Gruntfile.js will be created. Remove t
 
 ## Parameters
 
-You can install all oficial plugins from GruntJS
+- grunt-contrib-jshint
+- grunt-contrib-watch
+- grunt-contrib-uglify
+- grunt-contrib-clean
+- grunt-contrib-copy
+- grunt-contrib-concat
+- grunt-contrib-cssmin
+- grunt-contrib-connect
+- grunt-contrib-less
+- grunt-contrib-imagemin
+- grunt-contrib-htmlmin
+- grunt-contrib-compass
+- grunt-contrib-coffee
+- grunt-contrib-requirejs
+- grunt-contrib-sass
+- grunt-contrib-compress
+- grunt-contrib-csslint
+- grunt-contrib-jasmine
+- grunt-contrib-nodeunit
+- grunt-contrib-qunit
+- grunt-contrib-jst
+- grunt-contrib-jade
+- grunt-contrib-handlebars
+- grunt-contrib-stylus
+- grunt-contrib-yuidoc
+- grunt-contrib-symlink
 
-- jshint
-- watch
-- uglify
-- clean
-- copy
-- concat
-- cssmin
-- connect
-- less
-- imagemin
-- htmlmin
-- compass
-- coffee
-- requirejs
-- sass
-- compress
-- csslint
-- jasmine
-- nodeunit
-- qunit
-- jst
-- jade
-- handlebars
-- stylus
-- yuidoc
-- symlink
+##Note:
+
+If you miss some task in here, feel free to fork the project and add a new task, or even maybe your own task...
+
+Remembering that it must be registered on NPM.
+
+## License
+Beerware
