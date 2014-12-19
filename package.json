@@ -2,7 +2,7 @@
   "author": "Mauricio Soares",
   "name": "gruntgen",
   "description": "The easy and fast way to setup your grunt tasks.",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "repository": {
     "url": "https://github.com/mauriciosoares/gruntgen.git"
   },
