@@ -53,11 +53,15 @@ After running this command a file named \_Gruntfile.js will be created. Remove t
 - grunt-contrib-yuidoc
 - grunt-contrib-symlink
 
-##Note:
+## Note:
 
 If you miss some task in here, feel free to fork the project and add a new task, or even your own task...
 
 Remembering that it must be registered on NPM.
+
+## Release History
+
+ * 2014-12-21   v0.1.0   Support for non official Grunt tasks.
 
 ## License
 Beerware
