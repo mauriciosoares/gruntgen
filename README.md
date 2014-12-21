@@ -55,7 +55,7 @@ After running this command a file named \_Gruntfile.js will be created. Remove t
 
 ##Note:
 
-If you miss some task in here, feel free to fork the project and add a new task, or even maybe your own task...
+If you miss some task in here, feel free to fork the project and add a new task, or even your own task...
 
 Remembering that it must be registered on NPM.
 
