@@ -61,7 +61,8 @@ Remembering that it must be registered on NPM.
 
 ## Release History
 
- * 2014-12-21   v0.1.0   Support for non official Grunt tasks.
+* 2014-12-21   v0.1.1   Bugfix when trying to install multiple packages.
+* 2014-12-21   v0.1.0   Support for non official Grunt tasks.
 
 ## License
 Beerware
